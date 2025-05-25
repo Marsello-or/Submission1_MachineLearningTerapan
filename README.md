@@ -216,7 +216,7 @@ Untuk masalah klasifikasi churn, beberapa metrik evaluasi penting adalah:
 * **Precision:** Proporsi prediksi positif yang sebenarnya positif (penting untuk meminimalkan *false positives* - memprediksi churn padahal tidak).
 * **Recall (Sensitivity):** Proporsi positif aktual yang teridentifikasi dengan benar (penting untuk meminimalkan *false negatives* - tidak memprediksi churn padahal sebenarnya churn).
 * **F1-Score:** Rata-rata harmonik dari Precision dan Recall, memberikan keseimbangan antara keduanya.
-* **ROC AUC (Receiver Operating Characteristic - Area Under the Curve):** Mengukur kemampuan model untuk membedakan antara kelas positif dan negatif di berbagai ambang batas klasifikasi. Nilai mendekati 1 menunjukkan kinerja yang sangat baik.
+* **ROC AUC (Receiver Operating Characteristic - Area Under the Curve):** Mengukur kemampuan model untuk membedakan antara kelas positif dan negatif di berbagai ambang batas klasifikasi. Nilai mendekati 1 menunjukkan kinerja yang sangat baik. Hal ini sesuai dengan apa yang diberikan pada hasil penelitian oleh (Lukita, 2023).
 
 #### Dampak Model terhadap Business Understanding
 
@@ -286,5 +286,5 @@ Secara keseluruhan, Random Forest Classifier menunjukkan kinerja yang sangat kua
 Berdasarkan hasil di atas, dapat dikatakan bahwa model mampu memprediksi churn nasabah selaras dengan hasil akurasi menggunakan algoritma Random Forest Classifier sebesar 85.29% dan ROC AUC sebesar 0.8415. Meskipun terdapat indikasi overfitting pada data latih, kinerja generalisasi model ini tetap sangat baik.
 
 ## Referensi
-1. Dbs_machinelearningterapan_marselloormanda_submission1 (6).py
+Lukita, C. (2023). Predictive and Analytics using Data Mining and Machine Learning for Customer Churn Prediction. Journal of Applied Data Sciences, 4(4), 454–465. https://doi.org/10.47738/jads.v4i4.131
 ```
